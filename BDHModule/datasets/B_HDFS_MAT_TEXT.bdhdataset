@@ -1,0 +1,46 @@
+{
+  "description": "",
+  "url": "hdfs:///car_telemetry_solution/data_makt.csv",
+  "metadata": {
+    "format": "CSV",
+    "colDelimiter": ";",
+    "header": true,
+    "rowDelimiter": "\n",
+    "charset": "UTF-8",
+    "columns": [
+      {
+        "name": "MANDT",
+        "datatype": "NUMERIC",
+        "nullable": false
+      },
+      {
+        "name": "MATNR",
+        "datatype": "CHARACTER",
+        "length": 18,
+        "nullable": false
+      },
+      {
+        "name": "SPRAS",
+        "datatype": "CHARACTER",
+        "length": 1,
+        "nullable": false
+      },
+      {
+        "name": "MAKTX",
+        "datatype": "CHARACTER",
+        "length": 45,
+        "nullable": false
+      },
+      {
+        "name": "MAKTG",
+        "datatype": "CHARACTER",
+        "length": 45,
+        "nullable": false
+      }
+    ],
+    "parameters": []
+  },
+  "destinationRef": {
+    "id": "Dest_HDFS_CONN_DEFAULT"
+  }
+}

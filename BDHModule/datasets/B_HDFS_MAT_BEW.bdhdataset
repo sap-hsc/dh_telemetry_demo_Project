@@ -1,0 +1,40 @@
+{
+  "description": "",
+  "url": "hdfs:///car_telemetry_solution/data_mbew.csv",
+  "metadata": {
+    "format": "CSV",
+    "colDelimiter": ";",
+    "header": true,
+    "rowDelimiter": "\n",
+    "charset": "UTF-8",
+    "columns": [
+      {
+        "name": "MANDT",
+        "datatype": "NUMERIC",
+        "nullable": false
+      },
+      {
+        "name": "MATNR",
+        "datatype": "CHARACTER",
+        "length": 17,
+        "nullable": false
+      },
+      {
+        "name": "STPRS",
+        "datatype": "CHARACTER",
+        "length": 8,
+        "nullable": false
+      },
+      {
+        "name": "BKLAS",
+        "datatype": "CHARACTER",
+        "length": 4,
+        "nullable": false
+      }
+    ],
+    "parameters": []
+  },
+  "destinationRef": {
+    "id": "Dest_HDFS_CONN_DEFAULT"
+  }
+}

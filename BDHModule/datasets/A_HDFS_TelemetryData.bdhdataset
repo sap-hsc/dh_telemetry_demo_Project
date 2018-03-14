@@ -1,0 +1,51 @@
+{
+  "description": "",
+  "url": "hdfs:///car_telemetry_solution/CarTelemetryStructuredDataExtract.csv",
+  "metadata": {
+    "format": "CSV",
+    "colDelimiter": ",",
+    "textDelimiter": "\"",
+    "header": false,
+    "rowDelimiter": "\n",
+    "charset": "ISO-8859-1",
+    "columns": [
+      {
+        "name": "C0",
+        "datatype": "NUMERIC",
+        "nullable": false
+      },
+      {
+        "name": "C1",
+        "datatype": "NUMERIC",
+        "nullable": false
+      },
+      {
+        "name": "C2",
+        "datatype": "CHARACTER",
+        "nullable": false
+      },
+      {
+        "name": "C3",
+        "datatype": "CHARACTER",
+        "length": 7,
+        "nullable": false
+      },
+      {
+        "name": "C4",
+        "datatype": "CHARACTER",
+        "length": 25,
+        "nullable": false
+      },
+      {
+        "name": "C5",
+        "datatype": "CHARACTER",
+        "length": 13,
+        "nullable": false
+      }
+    ],
+    "parameters": []
+  },
+  "destinationRef": {
+    "id": "Dest_HDFS_CONN_DEFAULT"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "description": "",
+  "url": "hdfs:///car_telemetry_solution/data_mara.csv",
+  "metadata": {
+    "format": "CSV",
+    "header": true,
+    "colDelimiter": ";",
+    "rowDelimiter": "\n",
+    "charset": "UTF-8",
+    "columns": [
+      {
+        "name": "MANDT",
+        "datatype": "NUMERIC",
+        "nullable": false
+      },
+      {
+        "name": "MATNR",
+        "datatype": "CHARACTER",
+        "length": 18,
+        "nullable": false
+      },
+      {
+        "name": "MTART",
+        "datatype": "CHARACTER",
+        "length": 4,
+        "nullable": false
+      },
+      {
+        "name": "MEINS",
+        "datatype": "CHARACTER",
+        "length": 3,
+        "nullable": false
+      },
+      {
+        "name": "BRGEW",
+        "datatype": "CHARACTER",
+        "length": 10,
+        "nullable": false
+      },
+      {
+        "name": "NTGEW",
+        "datatype": "CHARACTER",
+        "length": 10,
+        "nullable": false
+      },
+      {
+        "name": "GEWEI",
+        "datatype": "CHARACTER",
+        "length": 2,
+        "nullable": true
+      }
+    ],
+    "parameters": []
+  },
+  "destinationRef": {
+    "id": "Dest_HDFS_CONN_DEFAULT"
+  }
+}

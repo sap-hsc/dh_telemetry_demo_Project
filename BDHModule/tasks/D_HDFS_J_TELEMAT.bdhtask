@@ -1,0 +1,25 @@
+{
+  "description": "",
+  "type": "FLOWGRAPH",
+  "definition": "implementation/D_HDFS_J_TELEMAT.bdhflowgraph",
+  "input": [
+    {
+      "datasetRef": {
+        "id": "C_HDFS_MAC_MAT"
+      }
+    },
+    {
+      "datasetRef": {
+        "id": "C_HDFS_MAT_JOIN"
+      }
+    }
+  ],
+  "output": [
+    {
+      "mode": "OVERWRITE",
+      "datasetRef": {
+        "id": "D_HDFS_J_RESULT"
+      }
+    }
+  ]
+}

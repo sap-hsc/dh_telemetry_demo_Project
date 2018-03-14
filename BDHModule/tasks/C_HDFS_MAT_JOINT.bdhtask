@@ -1,0 +1,30 @@
+{
+  "description": "",
+  "type": "FLOWGRAPH",
+  "definition": "implementation/C_HDFS_MAT_JOINT.bdhflowgraph",
+  "input": [
+    {
+      "datasetRef": {
+        "id": "B_HDFS_MAT_BEW"
+      }
+    },
+    {
+      "datasetRef": {
+        "id": "B_HDFS_MAT_BASIC"
+      }
+    },
+    {
+      "datasetRef": {
+        "id": "B_HDFS_MAT_TEXT"
+      }
+    }
+  ],
+  "output": [
+    {
+      "mode": "OVERWRITE",
+      "datasetRef": {
+        "id": "C_HDFS_MAT_JOIN"
+      }
+    }
+  ]
+}

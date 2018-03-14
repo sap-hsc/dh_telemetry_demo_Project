@@ -1,0 +1,5 @@
+{
+  "description": "",
+  "system": "VORA_SYS_DEFAULT",
+  "connection": "HDFS_CONN_DEFAULT"
+}

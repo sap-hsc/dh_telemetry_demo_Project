@@ -1,0 +1,14 @@
+{
+  "description": "Convert JSON to CSV Telemetry Data",
+  "type": "VORA_PIPELINE",
+  "details": {
+    "voraPipeline": {
+      "id": "TelemetryDataRefinery",
+      "permanent": false,
+      "parameterValues": []
+    }
+  },
+  "destinationRef": {
+    "id": "Dest_VORA_PIPELINE_CONN_DEFAULT"
+  }
+}

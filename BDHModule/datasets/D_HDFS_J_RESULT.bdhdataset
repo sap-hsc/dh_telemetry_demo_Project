@@ -1,0 +1,125 @@
+{
+  "description": "",
+  "url": "hdfs:///car_telemetry_solution/D_HDFS_RESULT.csv",
+  "metadata": {
+    "format": "CSV",
+    "colDelimiter": ",",
+    "header": true,
+    "charset": "UTF-8",
+    "textDelimiter": "\"",
+    "rowDelimiter": "\n",
+    "columns": [
+      {
+        "name": "Material",
+        "datatype": "CHARACTER",
+        "length": 13,
+        "nullable": false
+      },
+      {
+        "name": "Mac",
+        "datatype": "CHARACTER",
+        "length": 12,
+        "nullable": false
+      },
+      {
+        "name": "Thres1",
+        "datatype": "NUMERIC",
+        "nullable": false,
+        "precision": 9,
+        "scale": 6
+      },
+      {
+        "name": "VendorID",
+        "datatype": "NUMERIC",
+        "nullable": false,
+        "precision": 12,
+        "scale": 6
+      },
+      {
+        "name": "VendorName",
+        "datatype": "CHARACTER",
+        "length": 31,
+        "nullable": false
+      },
+      {
+        "name": "MANDT",
+        "datatype": "NUMERIC",
+        "nullable": false,
+        "precision": 9,
+        "scale": 6
+      },
+      {
+        "name": "MATNR",
+        "datatype": "CHARACTER",
+        "length": 13,
+        "nullable": false
+      },
+      {
+        "name": "MTART",
+        "datatype": "CHARACTER",
+        "length": 3,
+        "nullable": false
+      },
+      {
+        "name": "MEINS",
+        "datatype": "CHARACTER",
+        "length": 2,
+        "nullable": false
+      },
+      {
+        "name": "BRGEW",
+        "datatype": "NUMERIC",
+        "nullable": false,
+        "precision": 4,
+        "scale": 3
+      },
+      {
+        "name": "NTGEW",
+        "datatype": "NUMERIC",
+        "nullable": false,
+        "precision": 4,
+        "scale": 3
+      },
+      {
+        "name": "GEWEI",
+        "datatype": "CHARACTER",
+        "length": 4,
+        "nullable": false
+      },
+      {
+        "name": "STPRS",
+        "datatype": "NUMERIC",
+        "nullable": false,
+        "precision": 5,
+        "scale": 2
+      },
+      {
+        "name": "BKLAS",
+        "datatype": "NUMERIC",
+        "nullable": false
+      },
+      {
+        "name": "SPRAS",
+        "datatype": "CHARACTER",
+        "length": 1,
+        "nullable": false
+      },
+      {
+        "name": "MAKTX",
+        "datatype": "CHARACTER",
+        "length": 17,
+        "nullable": false
+      },
+      {
+        "name": "MAKTG",
+        "datatype": "CHARACTER",
+        "length": 17,
+        "nullable": false
+      }
+    ],
+    "parameters": []
+  },
+  "destinationRef": {
+    "id": "Dest_HDFS_CONN_DEFAULT"
+  }
+}

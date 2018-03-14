@@ -1,0 +1,5 @@
+{
+  "description": "",
+  "system": "TADH_Solution_BW",
+  "connection": "BW_CONN_DEFAULT"
+}

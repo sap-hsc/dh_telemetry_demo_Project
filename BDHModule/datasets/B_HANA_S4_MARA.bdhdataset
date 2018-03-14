@@ -1,0 +1,1665 @@
+{
+  "description": "",
+  "url": "hanadb:///SAPHE4/MARA",
+  "metadata": {
+    "format": "TABLE",
+    "columns": [
+      {
+        "name": "MANDT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "MATNR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 40
+      },
+      {
+        "name": "ERSDA",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 8
+      },
+      {
+        "name": "ERNAM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 12
+      },
+      {
+        "name": "LAEDA",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 8
+      },
+      {
+        "name": "AENAM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 12
+      },
+      {
+        "name": "VPSTA",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 15
+      },
+      {
+        "name": "PSTAT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 15
+      },
+      {
+        "name": "LVORM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "MTART",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "MBRSH",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "MATKL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 9
+      },
+      {
+        "name": "BISMT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 40
+      },
+      {
+        "name": "MEINS",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "BSTME",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "ZEINR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 22
+      },
+      {
+        "name": "ZEIAR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "ZEIVR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "ZEIFO",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "AESZN",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 6
+      },
+      {
+        "name": "BLATT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "BLANZ",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "FERTH",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 18
+      },
+      {
+        "name": "FORMT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "GROES",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 32
+      },
+      {
+        "name": "WRKST",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 48
+      },
+      {
+        "name": "NORMT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 18
+      },
+      {
+        "name": "LABOR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "EKWSL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "BRGEW",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "NTGEW",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "GEWEI",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "VOLUM",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "VOLEH",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "BEHVO",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "RAUBE",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "TEMPB",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "DISST",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "TRAGR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "STOFF",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 40
+      },
+      {
+        "name": "SPART",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "KUNNR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 10
+      },
+      {
+        "name": "EANNR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 13
+      },
+      {
+        "name": "WESCH",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "BWVOR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "BWSCL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "SAISO",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "ETIAR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "ETIFO",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "ENTAR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "EAN11",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 18
+      },
+      {
+        "name": "NUMTP",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "LAENG",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "BREIT",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "HOEHE",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "MEABM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "PRDHA",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 18
+      },
+      {
+        "name": "AEKLK",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "CADKZ",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "QMPUR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "ERGEW",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "ERGEI",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "ERVOL",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "ERVOE",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "GEWTO",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 1,
+        "precision": 3,
+        "length": 3
+      },
+      {
+        "name": "VOLTO",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 1,
+        "precision": 3,
+        "length": 3
+      },
+      {
+        "name": "VABME",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "KZREV",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "KZKFG",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "XCHPF",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "VHART",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "FUELG",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 0,
+        "precision": 3,
+        "length": 3
+      },
+      {
+        "name": "STFAK",
+        "datatype": "NUMERIC",
+        "originalDatatype": "SMALLINT"
+      },
+      {
+        "name": "MAGRV",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "BEGRU",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "DATAB",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 8
+      },
+      {
+        "name": "LIQDT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 8
+      },
+      {
+        "name": "SAISJ",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "PLGTP",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "MLGUT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "EXTWG",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 18
+      },
+      {
+        "name": "SATNR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 40
+      },
+      {
+        "name": "ATTYP",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "KZKUP",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "KZNFM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "PMATA",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 40
+      },
+      {
+        "name": "MSTAE",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "MSTAV",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "MSTDE",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 8
+      },
+      {
+        "name": "MSTDV",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 8
+      },
+      {
+        "name": "TAKLV",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "RBNRM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 9
+      },
+      {
+        "name": "MHDRZ",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 0,
+        "precision": 4,
+        "length": 4
+      },
+      {
+        "name": "MHDHB",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 0,
+        "precision": 4,
+        "length": 4
+      },
+      {
+        "name": "MHDLP",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 0,
+        "precision": 3,
+        "length": 3
+      },
+      {
+        "name": "INHME",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "INHAL",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "VPREH",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 0,
+        "precision": 5,
+        "length": 5
+      },
+      {
+        "name": "ETIAG",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 18
+      },
+      {
+        "name": "INHBR",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "CMETH",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "CUOBF",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 18
+      },
+      {
+        "name": "KZUMW",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "KOSCH",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 18
+      },
+      {
+        "name": "SPROF",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "NRFHG",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "MFRPN",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 40
+      },
+      {
+        "name": "MFRNR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 10
+      },
+      {
+        "name": "BMATN",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 40
+      },
+      {
+        "name": "MPROF",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "KZWSM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "SAITY",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "PROFL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "IHIVI",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "ILOOS",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "SERLV",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "KZGVH",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "XGCHP",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "KZEFF",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "COMPL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "IPRKZ",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "RDMHD",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "PRZUS",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "MTPOS_MARA",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "BFLME",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "MATFI",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "CMREL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "BBTYP",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "SLED_BBD",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "GTIN_VARIANT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "GENNR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 40
+      },
+      {
+        "name": "RMATP",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 40
+      },
+      {
+        "name": "GDS_RELEVANT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "WEORA",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "HUTYP_DFLT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "PILFERABLE",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "WHSTC",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "WHMATGR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "HNDLCODE",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "HAZMAT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "HUTYP",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "TARE_VAR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "MAXC",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 15,
+        "length": 15
+      },
+      {
+        "name": "MAXC_TOL",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 1,
+        "precision": 3,
+        "length": 3
+      },
+      {
+        "name": "MAXL",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 15,
+        "length": 15
+      },
+      {
+        "name": "MAXB",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 15,
+        "length": 15
+      },
+      {
+        "name": "MAXH",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 15,
+        "length": 15
+      },
+      {
+        "name": "MAXDIM_UOM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "HERKL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "MFRGR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 8
+      },
+      {
+        "name": "QQTIME",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 0,
+        "precision": 3,
+        "length": 3
+      },
+      {
+        "name": "QQTIMEUOM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "QGRP",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "SERIAL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "PS_SMARTFORM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 30
+      },
+      {
+        "name": "LOGUNIT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "CWQREL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "CWQPROC",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "CWQTOLGR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 9
+      },
+      {
+        "name": "ADPROF",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "IPMIPPRODUCT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 40
+      },
+      {
+        "name": "ALLOW_PMAT_IGNO",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "MEDIUM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 6
+      },
+      {
+        "name": "COMMODITY",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 18
+      },
+      {
+        "name": "ANIMAL_ORIGIN",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "TEXTILE_COMP_IND",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "SGT_CSGR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "SGT_COVSA",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 8
+      },
+      {
+        "name": "SGT_STAT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "SGT_SCOPE",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "SGT_REL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "ANP",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 9
+      },
+      {
+        "name": "PSM_CODE",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "FSH_MG_AT1",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 10
+      },
+      {
+        "name": "FSH_MG_AT2",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 10
+      },
+      {
+        "name": "FSH_MG_AT3",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 6
+      },
+      {
+        "name": "FSH_SEALV",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "FSH_SEAIM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "FSH_SC_MID",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "/BEV1/LULEINH",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 8
+      },
+      {
+        "name": "/BEV1/LULDEGRP",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "/BEV1/NESTRUCCAT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "/DSD/SL_TOLTYP",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "/DSD/SV_CNT_GRP",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 10
+      },
+      {
+        "name": "/DSD/VC_GROUP",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 6
+      },
+      {
+        "name": "/SAPMP/KADU",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 7,
+        "length": 7
+      },
+      {
+        "name": "/SAPMP/ABMEIN",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "/SAPMP/KADP",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 5,
+        "length": 5
+      },
+      {
+        "name": "/SAPMP/BRAD",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 0,
+        "precision": 4,
+        "length": 4
+      },
+      {
+        "name": "/SAPMP/SPBI",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 7,
+        "length": 7
+      },
+      {
+        "name": "/SAPMP/TRAD",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 7,
+        "length": 7
+      },
+      {
+        "name": "/SAPMP/KEDU",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 7,
+        "length": 7
+      },
+      {
+        "name": "/SAPMP/SPTR",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "/SAPMP/FBDK",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 7,
+        "length": 7
+      },
+      {
+        "name": "/SAPMP/FBHK",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 7,
+        "length": 7
+      },
+      {
+        "name": "/SAPMP/RILI",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "/SAPMP/FBAK",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "/SAPMP/AHO",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "/SAPMP/MIFRR",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 7,
+        "length": 7
+      },
+      {
+        "name": "/VSO/R_TILT_IND",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "/VSO/R_STACK_IND",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "/VSO/R_BOT_IND",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "/VSO/R_TOP_IND",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "/VSO/R_STACK_NO",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "/VSO/R_PAL_IND",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "/VSO/R_PAL_OVR_D",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "/VSO/R_PAL_OVR_W",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "/VSO/R_PAL_B_HT",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "/VSO/R_PAL_MIN_H",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "/VSO/R_TOL_B_HT",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "/VSO/R_NO_P_GVH",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "/VSO/R_QUAN_UNIT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "/VSO/R_KZGVH_IND",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "PACKCODE",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 10
+      },
+      {
+        "name": "DG_PACK_STATUS",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 10
+      },
+      {
+        "name": "MCOND",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "RETDELC",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "LOGLEV_RETO",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "NSNID",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 9
+      },
+      {
+        "name": "OVLPN",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 32
+      },
+      {
+        "name": "ADSPC_SPC",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "VARID",
+        "datatype": "BINARY",
+        "originalDatatype": "VARBINARY",
+        "length": 16
+      },
+      {
+        "name": "MSBOOKPARTNO",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 40
+      },
+      {
+        "name": "DPCBT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "XGRDT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "IMATN",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 40
+      },
+      {
+        "name": "PICNUM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 40
+      },
+      {
+        "name": "BSTAT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "COLOR_ATINN",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 10
+      },
+      {
+        "name": "SIZE1_ATINN",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 10
+      },
+      {
+        "name": "SIZE2_ATINN",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 10
+      },
+      {
+        "name": "COLOR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 18
+      },
+      {
+        "name": "SIZE1",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 18
+      },
+      {
+        "name": "SIZE2",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 18
+      },
+      {
+        "name": "FREE_CHAR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 18
+      },
+      {
+        "name": "CARE_CODE",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 16
+      },
+      {
+        "name": "BRAND_ID",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "FIBER_CODE1",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "FIBER_PART1",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "FIBER_CODE2",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "FIBER_PART2",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "FIBER_CODE3",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "FIBER_PART3",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "FIBER_CODE4",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "FIBER_PART4",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "FIBER_CODE5",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "FIBER_PART5",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "FASHGRD",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "DUMMY_PRD_INCL_EEW_PS",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "SCM_MATID_GUID16",
+        "datatype": "BINARY",
+        "originalDatatype": "VARBINARY",
+        "length": 16
+      },
+      {
+        "name": "SCM_MATID_GUID22",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 22
+      },
+      {
+        "name": "SCM_MATURITY_DUR",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 0,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "SCM_SHLF_LFE_REQ_MIN",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 0,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "SCM_SHLF_LFE_REQ_MAX",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 0,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "SCM_PUOM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "/CWM/XCWMAT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "/CWM/VALUM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "/CWM/TOLGR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 9
+      },
+      {
+        "name": "/CWM/TARA",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "/CWM/TARUM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "LAST_CHANGED_TIME",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 6
+      }
+    ],
+    "parameters": [],
+    "parameterValues": {
+      "selectOptions": []
+    }
+  },
+  "destinationRef": {
+    "id": "Dest_HANA_SQL_CONN_DEFAULT"
+  }
+}

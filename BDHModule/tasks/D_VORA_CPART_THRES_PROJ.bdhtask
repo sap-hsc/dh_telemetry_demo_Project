@@ -1,0 +1,20 @@
+{
+  "description": "",
+  "type": "FLOWGRAPH",
+  "definition": "implementation/D_VORA_CPART_THRES_PROJ.bdhflowgraph",
+  "input": [
+    {
+      "datasetRef": {
+        "id": "D_HDFS_J_RESULT"
+      }
+    }
+  ],
+  "output": [
+    {
+      "mode": "OVERWRITE",
+      "datasetRef": {
+        "id": "D_VORA_CAR_PART_THRESHOLDS"
+      }
+    }
+  ]
+}

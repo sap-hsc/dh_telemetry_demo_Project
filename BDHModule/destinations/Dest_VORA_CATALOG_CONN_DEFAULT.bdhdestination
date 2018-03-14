@@ -1,0 +1,5 @@
+{
+  "description": "",
+  "system": "VORA_SYS_DEFAULT",
+  "connection": "VORA_CATALOG_CONN_DEFAULT"
+}

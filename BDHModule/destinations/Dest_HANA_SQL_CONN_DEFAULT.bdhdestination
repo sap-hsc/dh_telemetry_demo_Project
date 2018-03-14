@@ -1,0 +1,5 @@
+{
+  "description": "",
+  "system": "HANA_Solution_DEFAULT",
+  "connection": "HANA_SQL_CONN_DEFAULT"
+}

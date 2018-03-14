@@ -1,0 +1,20 @@
+{
+  "description": "",
+  "type": "FLOWGRAPH",
+  "definition": "implementation/A_TelStruc2Vora.bdhflowgraph",
+  "input": [
+    {
+      "datasetRef": {
+        "id": "A_HDFS_TelemetryData"
+      }
+    }
+  ],
+  "output": [
+    {
+      "mode": "OVERWRITE",
+      "datasetRef": {
+        "id": "D_VORA_CARTELE_EXTRACT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "description": "",
+  "url": "vora:///VORA/CAR_PART_THRESHOLDS",
+  "metadata": {
+    "columns": [
+      {
+        "name": "MAC",
+        "datatype": "CHARACTER",
+        "length": 50,
+        "nullable": true
+      },
+      {
+        "name": "MAT",
+        "datatype": "CHARACTER",
+        "length": 50,
+        "nullable": true
+      },
+      {
+        "name": "THRES",
+        "datatype": "NUMERIC",
+        "nullable": true,
+        "precision": 28,
+        "scale": 6
+      },
+      {
+        "name": "VENDNAME",
+        "datatype": "CHARACTER",
+        "length": 50,
+        "nullable": true
+      },
+      {
+        "name": "GEW",
+        "datatype": "NUMERIC",
+        "nullable": true,
+        "precision": 28,
+        "scale": 6
+      }
+    ],
+    "parameters": []
+  },
+  "destinationRef": {
+    "id": "Dest_VORA_CATALOG_CONN_DEFAULT"
+  }
+}

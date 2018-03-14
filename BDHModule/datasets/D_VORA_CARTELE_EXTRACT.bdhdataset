@@ -1,0 +1,46 @@
+{
+  "description": "",
+  "url": "vora:///VORA/CAR_TELEMETRY_EXTRACT",
+  "metadata": {
+    "columns": [
+      {
+        "name": "TEMPERATURE",
+        "datatype": "NUMERIC",
+        "nullable": true
+      },
+      {
+        "name": "BATTERY",
+        "datatype": "NUMERIC",
+        "nullable": true
+      },
+      {
+        "name": "GEAR",
+        "datatype": "CHARACTER",
+        "length": 32,
+        "nullable": true
+      },
+      {
+        "name": "RACE",
+        "datatype": "CHARACTER",
+        "length": 32,
+        "nullable": true
+      },
+      {
+        "name": "TIMEST",
+        "datatype": "CHARACTER",
+        "length": 128,
+        "nullable": true
+      },
+      {
+        "name": "MACADDRESS",
+        "datatype": "CHARACTER",
+        "length": 50,
+        "nullable": true
+      }
+    ],
+    "parameters": []
+  },
+  "destinationRef": {
+    "id": "Dest_VORA_CATALOG_CONN_DEFAULT"
+  }
+}

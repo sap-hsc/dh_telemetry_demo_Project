@@ -1,0 +1,48 @@
+{
+  "description": "",
+  "url": "hdfs:///car_telemetry_solution/MM_MAC.csv",
+  "metadata": {
+    "format": "CSV",
+    "colDelimiter": ",",
+    "header": true,
+    "rowDelimiter": "\n",
+    "charset": "UTF-8",
+    "textDelimiter": "\"",
+    "columns": [
+      {
+        "name": "Material",
+        "datatype": "CHARACTER",
+        "length": 13,
+        "nullable": false
+      },
+      {
+        "name": "Mac",
+        "datatype": "CHARACTER",
+        "length": 12,
+        "nullable": false
+      },
+      {
+        "name": "Thres1",
+        "datatype": "NUMERIC",
+        "nullable": false,
+        "precision": 3,
+        "scale": 1
+      },
+      {
+        "name": "VendorID",
+        "datatype": "NUMERIC",
+        "nullable": false
+      },
+      {
+        "name": "VendorName",
+        "datatype": "CHARACTER",
+        "length": 31,
+        "nullable": false
+      }
+    ],
+    "parameters": []
+  },
+  "destinationRef": {
+    "id": "Dest_HDFS_CONN_DEFAULT"
+  }
+}

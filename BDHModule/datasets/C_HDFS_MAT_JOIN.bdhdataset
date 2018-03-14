@@ -1,0 +1,94 @@
+{
+  "description": "",
+  "url": "hdfs:///car_telemetry_solution/C_HDFS_MAT_JOIN.csv",
+  "metadata": {
+    "format": "CSV",
+    "header": true,
+    "rowDelimiter": "\n",
+    "charset": "UTF-8",
+    "colDelimiter": ";",
+    "columns": [
+      {
+        "name": "MANDT",
+        "datatype": "NUMERIC",
+        "nullable": false
+      },
+      {
+        "name": "MATNR",
+        "datatype": "CHARACTER",
+        "length": 18,
+        "nullable": false
+      },
+      {
+        "name": "MTART",
+        "datatype": "CHARACTER",
+        "length": 4,
+        "nullable": false
+      },
+      {
+        "name": "MEINS",
+        "datatype": "CHARACTER",
+        "length": 3,
+        "nullable": false
+      },
+      {
+        "name": "BRGEW",
+        "datatype": "CHARACTER",
+        "length": 10,
+        "nullable": false
+      },
+      {
+        "name": "NTGEW",
+        "datatype": "CHARACTER",
+        "length": 10,
+        "nullable": false
+      },
+      {
+        "name": "GEWEI",
+        "datatype": "CHARACTER",
+        "length": 2,
+        "nullable": true
+      },
+      {
+        "name": "MANDT_1",
+        "datatype": "NUMERIC"
+      },
+      {
+        "name": "MATNR_1",
+        "datatype": "CHARACTER"
+      },
+      {
+        "name": "STPRS",
+        "datatype": "CHARACTER"
+      },
+      {
+        "name": "BKLAS",
+        "datatype": "CHARACTER"
+      },
+      {
+        "name": "MANDT_2",
+        "datatype": "NUMERIC"
+      },
+      {
+        "name": "MATNR_2",
+        "datatype": "CHARACTER"
+      },
+      {
+        "name": "SPRAS",
+        "datatype": "CHARACTER"
+      },
+      {
+        "name": "MAKTX",
+        "datatype": "CHARACTER"
+      },
+      {
+        "name": "MAKTG",
+        "datatype": "CHARACTER"
+      }
+    ],
+    "parameters": []
+  },
+  "destinationRef": {
+    "id": "Dest_HDFS_CONN_DEFAULT"
+  }
+}

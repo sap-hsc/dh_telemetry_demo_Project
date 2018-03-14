@@ -1,0 +1,46 @@
+{
+  "description": "",
+  "url": "hanadb:///SAPHE4/MAKT",
+  "metadata": {
+    "format": "TABLE",
+    "columns": [
+      {
+        "name": "MANDT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "MATNR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 40
+      },
+      {
+        "name": "SPRAS",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "MAKTX",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 40
+      },
+      {
+        "name": "MAKTG",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 40
+      }
+    ],
+    "parameters": [],
+    "parameterValues": {
+      "selectOptions": []
+    }
+  },
+  "destinationRef": {
+    "id": "Dest_HANA_SQL_CONN_DEFAULT"
+  }
+}

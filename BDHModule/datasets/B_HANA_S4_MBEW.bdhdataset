@@ -1,0 +1,762 @@
+{
+  "description": "",
+  "url": "hanadb:///SAPHE4/MBEW",
+  "metadata": {
+    "format": "TABLE",
+    "columns": [
+      {
+        "name": "MANDT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "MATNR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 40
+      },
+      {
+        "name": "BWKEY",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "BWTAR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 10
+      },
+      {
+        "name": "LVORM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "LBKUM",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "SALK3",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "VPRSV",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "VERPR",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "STPRS",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "PEINH",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 0,
+        "precision": 5,
+        "length": 5
+      },
+      {
+        "name": "BKLAS",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "SALKV",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "VMKUM",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "VMSAL",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "VMVPR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "VMVER",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "VMSTP",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "VMPEI",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 0,
+        "precision": 5,
+        "length": 5
+      },
+      {
+        "name": "VMBKL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "VMSAV",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "VJKUM",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "VJSAL",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "VJVPR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "VJVER",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "VJSTP",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "VJPEI",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 0,
+        "precision": 5,
+        "length": 5
+      },
+      {
+        "name": "VJBKL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "VJSAV",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "LFGJA",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "LFMON",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "BWTTY",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "STPRV",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "LAEPR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 8
+      },
+      {
+        "name": "ZKPRS",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "ZKDAT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 8
+      },
+      {
+        "name": "TIMESTAMP",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 0,
+        "precision": 15,
+        "length": 15
+      },
+      {
+        "name": "BWPRS",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "BWPRH",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "VJBWS",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "VJBWH",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "VVJSL",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "VVJLB",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "VVMLB",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 3,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "VVSAL",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "ZPLPR",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "ZPLP1",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "ZPLP2",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "ZPLP3",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "ZPLD1",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 8
+      },
+      {
+        "name": "ZPLD2",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 8
+      },
+      {
+        "name": "ZPLD3",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 8
+      },
+      {
+        "name": "PPERZ",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 6
+      },
+      {
+        "name": "PPERL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 6
+      },
+      {
+        "name": "PPERV",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 6
+      },
+      {
+        "name": "KALKZ",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "KALKL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "KALKV",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "KALSC",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 6
+      },
+      {
+        "name": "XLIFO",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "MYPOL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "BWPH1",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "BWPS1",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "ABWKZ",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "PSTAT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 15
+      },
+      {
+        "name": "KALN1",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 12
+      },
+      {
+        "name": "KALNR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 12
+      },
+      {
+        "name": "BWVA1",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "BWVA2",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "BWVA3",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "VERS1",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "VERS2",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "VERS3",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 2
+      },
+      {
+        "name": "HRKFT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "KOSGR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 10
+      },
+      {
+        "name": "PPRDZ",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "PPRDL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "PPRDV",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "PDATZ",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "PDATL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "PDATV",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "EKALR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "VPLPR",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "MLMAA",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "MLAST",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "LPLPR",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "VKSAL",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 13,
+        "length": 13
+      },
+      {
+        "name": "HKMAT",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "SPERW",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "KZIWL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 3
+      },
+      {
+        "name": "WLINL",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 8
+      },
+      {
+        "name": "ABCIW",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "BWSPA",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 6,
+        "length": 6
+      },
+      {
+        "name": "LPLPX",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "VPLPX",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "FPLPX",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 2,
+        "precision": 11,
+        "length": 11
+      },
+      {
+        "name": "LBWST",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "VBWST",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "FBWST",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "EKLAS",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "QKLAS",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "MTUSE",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "MTORG",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "OWNPR",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "XBEWM",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "BWPEI",
+        "datatype": "NUMERIC",
+        "originalDatatype": "DECIMAL",
+        "scale": 0,
+        "precision": 5,
+        "length": 5
+      },
+      {
+        "name": "MBRUE",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "OKLAS",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 4
+      },
+      {
+        "name": "OIPPINV",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      },
+      {
+        "name": "DUMMY_VAL_INCL_EEW_PS",
+        "datatype": "CHARACTER",
+        "originalDatatype": "NVARCHAR",
+        "length": 1
+      }
+    ],
+    "parameters": [],
+    "parameterValues": {
+      "selectOptions": []
+    }
+  },
+  "destinationRef": {
+    "id": "Dest_HANA_SQL_CONN_DEFAULT"
+  }
+}
